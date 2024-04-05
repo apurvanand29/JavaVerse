@@ -23,4 +23,27 @@ public class EmployeeDetails {
         position = empPosition;
     }
 
+    /**
+     * This is a 2 parameter constructor
+     * 
+     * @param empName
+     * @param empId
+     */
+    public EmployeeDetails(String empName, int empId) {
+        name = empName;
+        idNumber = empId;
+        department = "";
+        position = "";
+    }
+
+    /**
+     * This is a non-parameterized constructor
+     */
+    public EmployeeDetails() {
+        name = "";
+        idNumber = 0;
+        department = "";
+        position = "";
+    }
+
 }
