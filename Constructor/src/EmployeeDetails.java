@@ -8,4 +8,19 @@ public class EmployeeDetails {
     private String name, department, position;
     private int idNumber;
 
+    /**
+     * This is a 4 parameter constructor
+     * 
+     * @param empName
+     * @param empId
+     * @param empDept
+     * @param empPosition
+     */
+    public EmployeeDetails(String empName, int empId, String empDept, String empPosition) {
+        name = empName;
+        idNumber = empId;
+        department = empDept;
+        position = empPosition;
+    }
+
 }
