@@ -46,4 +46,25 @@ public class EmployeeDetails {
         position = "";
     }
 
+    /**
+     * These mutators will help set data for private members
+     * 
+     * @param name,idNumber,department,position
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setIdNumber(int idNumber) {
+        this.idNumber = idNumber;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
 }
