@@ -67,4 +67,25 @@ public class EmployeeDetails {
         this.position = position;
     }
 
+    /**
+     * These accessors will get the private data value
+     * 
+     * @return
+     */
+    public String getName() {
+        return name;
+    }
+
+    public int getIdNumber() {
+        return idNumber;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
 }
