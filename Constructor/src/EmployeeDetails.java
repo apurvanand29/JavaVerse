@@ -4,4 +4,8 @@
  */
 public class EmployeeDetails {
 
+    // Variable Declaration
+    private String name, department, position;
+    private int idNumber;
+
 }
