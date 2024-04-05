@@ -17,7 +17,10 @@ public class Employee {
 
         EmployeeDetails emp[] = { emp1, emp2, emp3 };
         for (int i = 0; i < emp.length; i++) {
-
+            System.out.println("\nEmployee Name : " + emp[i].getName());
+            System.out.println("Employee idNumber : " + emp[i].getIdNumber());
+            System.out.println("Employee department : " + emp[i].getDepartment());
+            System.out.println("Employee position : " + emp[i].getPosition());
         }
 
     }
