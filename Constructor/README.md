@@ -46,3 +46,8 @@ The `EmployeeDetails` class provides three constructors:
 3. **Non-Parameterized Constructor**
    - Initializes all attributes to default values.
    - No parameters.
+
+## Accessors and Mutators
+
+- Accessors (`getName()`, `getIdNumber()`, `getDepartment()`, `getPosition()`) retrieve the values of private attributes.
+- Mutators (`setName()`, `setIdNumber()`, `setDepartment()`, `setPosition()`) set the values of private attributes.
