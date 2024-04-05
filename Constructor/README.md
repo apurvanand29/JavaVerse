@@ -5,6 +5,9 @@ This Java program provides functionality to manage employee records using differ
 ## Table of Contents
 - [Introduction](#introduction)
 - [Usage](#usage)
+- [Classes](#classes)
+- [Constructors](#constructors)
+- [Accessors and Mutators](#accessors-and-mutators)
 
 ## Introduction
 
@@ -18,3 +21,12 @@ To use this program, follow these steps:
 2. Run the compiled `Employee` class file using `java Employee`.
 
 The program will display the details of three employees, showcasing different constructor overloads and accessors/mutators.
+
+## Classes
+
+### `Employee`
+- This class contains the main method and demonstrates the usage of the `EmployeeDetails` class.
+
+### `EmployeeDetails`
+- This class defines the attributes and methods related to employee details.
+- It includes constructors for different parameter combinations, along with accessors and mutators.
