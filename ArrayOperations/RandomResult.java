@@ -22,6 +22,13 @@ public class RandomResult {
         }
 
         RandomOperation randOp = new RandomOperation();
-
+        System.out.println("Total of numbers : "
+                + randOp.getTotal(numberArray));
+        System.out.println("Average of numbers : "
+                + randOp.getAverage(numberArray));
+        System.out.println("Highest number : "
+                + randOp.getHighest(numberArray));
+        System.out.println("Lowest number : "
+                + randOp.getLowest(numberArray));
     }
 }
