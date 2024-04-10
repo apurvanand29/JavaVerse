@@ -9,7 +9,8 @@ public class RandomResult {
         int[] numberArray = new int[200];
 
         // Taking input from file
-        Scanner sc = new Scanner(new FileReader("DATA.txt"));
+        Scanner sc = new Scanner(
+                new FileReader("/Users/anandapurvaa/IIT/Personal_Project/JavaVerse/ArrayOperation/DATA.txt"));
         while (sc.hasNext()) {
             numberList.add(sc.nextInt());
         }

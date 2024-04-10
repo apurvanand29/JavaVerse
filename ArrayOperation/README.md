@@ -27,15 +27,9 @@ This Java project provides functionalities to perform operations on 1D arrays su
 - `RandomResult.java`: Contains the main method to demonstrate the usage of the `RandomOperation` class
 - `DATA.txt`: Sample input file containing data for array operations
 
-## Sample Usage
+## Output
 
-Total of numbers : 225
-
-Average of numbers : 45.0
-
-Highest number : 70
-
-Lowest number : 20
+![OutputScreenshot](./Images/Output.png)
 
 ## Note
 
