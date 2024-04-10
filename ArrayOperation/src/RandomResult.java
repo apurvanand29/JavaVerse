@@ -1,4 +1,3 @@
-package ArrayOperations;
 
 import java.io.FileReader;
 import java.util.ArrayList;
