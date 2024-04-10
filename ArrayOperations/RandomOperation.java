@@ -33,4 +33,22 @@ public class RandomOperation {
         avg = sum / (arr1.length);
         return avg;
     }
+
+    /**
+     * This method fetches the highest of all
+     * numbers present in array
+     * 
+     * @param arr1
+     * @return
+     */
+    public int getHighest(int[] arr1) {
+        int highest = arr1[0];
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] > highest) {
+                highest = arr1[i];
+            }
+        }
+        return highest;
+    }
+
 }
