@@ -10,7 +10,7 @@ public class RandomResult {
         int[] numberArray = new int[200];
 
         // Taking input from file
-        Scanner sc = new Scanner(new FileReader("MOCK_DATA.txt"));
+        Scanner sc = new Scanner(new FileReader("DATA.txt"));
         while (sc.hasNext()) {
             numberList.add(sc.nextInt());
         }
