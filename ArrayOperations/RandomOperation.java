@@ -51,4 +51,20 @@ public class RandomOperation {
         return highest;
     }
 
+    /**
+     * This method fetches the lowest of all
+     * 
+     * @param arr1
+     * @return
+     */
+    public int getLowest(int[] arr1) {
+        int lowest = arr1[0];
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] < lowest) {
+                lowest = arr1[i];
+            }
+        }
+        return lowest;
+    }
+
 }
