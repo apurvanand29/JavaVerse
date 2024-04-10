@@ -19,5 +19,11 @@ This Java project provides functionalities to perform operations on 1D arrays su
 4. Run the `RandomResult` class to see the results:
     - Execute the `RandomResult` class (java RandomResult)
 
-5. Follow the on-screen instructions to provide input data or use the provided `DATA.txt` file.
+5. Follow the on-screen instructions to provide input data or use the provided `DATA.txt` file
+
+## File Structure
+
+- `RandomOperation.java`: Contains the implementation of array operation methods
+- `RandomResult.java`: Contains the main method to demonstrate the usage of the `RandomOperation` class
+- `DATA.txt`: Sample input file containing data for array operations
 
