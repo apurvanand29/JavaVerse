@@ -16,5 +16,10 @@ public class RandomResult {
         }
         sc.close();
 
+        // Storing value from ArrayList to Array
+        for (int i = 0; i < numberList.size(); i++) {
+            numberArray[i] = numberList.get(i);
+        }
+
     }
 }
