@@ -21,5 +21,7 @@ public class RandomResult {
             numberArray[i] = numberList.get(i);
         }
 
+        RandomOperation randOp = new RandomOperation();
+
     }
 }
