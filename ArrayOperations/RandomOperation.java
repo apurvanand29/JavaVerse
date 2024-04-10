@@ -1,3 +1,5 @@
+package ArrayOperations;
+
 /**
  * This program will help us get the sum of all numbers,
  * highest, lowest number, and average of numbers
