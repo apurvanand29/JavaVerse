@@ -13,7 +13,6 @@ public class RandomResult {
         while (sc.hasNext()) {
             numberList.add(sc.nextInt());
         }
-        sc.close();
 
         // Storing value from ArrayList to Array
         for (int i = 0; i < numberList.size(); i++) {
