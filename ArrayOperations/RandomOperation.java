@@ -19,4 +19,18 @@ public class RandomOperation {
         }
         return sum;
     }
+
+    /**
+     * This method calculates average of all
+     * numbers present in array
+     * 
+     * @param arr1
+     * @return
+     */
+    public double getAverage(int[] arr1) {
+        double avg = 1.0, sum;
+        sum = getTotal(arr1);
+        avg = sum / (arr1.length);
+        return avg;
+    }
 }
