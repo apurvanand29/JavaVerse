@@ -27,5 +27,16 @@ public class Bank {
             randAccount.add(account);
         }
 
+        /*
+         * To generate random amount for deposit and withdrawal for each SavingsAccount
+         * and print object
+         */
+        for (SavingsAccount account : randAccount) {
+            account.deposit(rand.nextDouble());
+            account.withdraw(rand.nextDouble());
+            account.monthlyServiceCharge = rand.nextDouble();
+            account.monthlyProcess();
+            System.out.println(account.toString());
+        }
     }
 }
