@@ -70,4 +70,25 @@ public abstract class BankAccount {
         this.numberOfWithdrawal++;
     }
 
+    /**
+     * This method will help you calculate interest and update
+     * available balance
+     * 
+     */
+    public void calcInterest() {
+        double monthlyInterestRate = annualInterestRate / 12;
+        double monthlyInterest = balance * monthlyInterestRate;
+        this.balance = balance + monthlyInterest;
+    }
+
+    /**
+     * This method will help you with monthly process
+     */
+    public void monthlyProcess() {
+        this.balance = balance - monthlyServiceCharge;
+        calcInterest();
+        this.numberOfDeposit = 0;
+        this.numberOfWithdrawal = 0;
+        this.monthlyServiceCharge = 0;
+    }
 }
