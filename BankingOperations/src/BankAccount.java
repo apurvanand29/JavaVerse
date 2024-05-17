@@ -48,4 +48,15 @@ public abstract class BankAccount {
         this.numberOfDeposit = numberOfDeposit;
     }
 
+    /**
+     * This method will help you deposit and update
+     * available balance and increment number of deposit
+     * 
+     * @param depositAmount
+     */
+    public void deposit(double depositAmount) {
+        this.balance = balance + depositAmount;
+        this.numberOfDeposit++;
+    }
+
 }
