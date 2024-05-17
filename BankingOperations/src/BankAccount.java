@@ -15,4 +15,37 @@ public abstract class BankAccount {
         this.annualInterestRate = annualInterest;
     }
 
+    // Accessors and Mutators for all private data members
+    public double getAnnualInterestRate() {
+        return annualInterestRate;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public int getNumberOfWithdrawal() {
+        return numberOfWithdrawal;
+    }
+
+    public int getNumberOfDeposit() {
+        return numberOfDeposit;
+    }
+
+    public void setAnnualInterestRate(double annualInterestRate) {
+        this.annualInterestRate = annualInterestRate;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void setNumberOfWithdrawal(int numberOfWithdrawal) {
+        this.numberOfWithdrawal = numberOfWithdrawal;
+    }
+
+    public void setNumberOfDeposit(int numberOfDeposit) {
+        this.numberOfDeposit = numberOfDeposit;
+    }
+
 }
