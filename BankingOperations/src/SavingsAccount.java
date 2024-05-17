@@ -33,4 +33,45 @@ public class SavingsAccount extends BankAccount implements Comparable<BankAccoun
         }
     }
 
+    @Override
+    public void monthlyProcess() {
+        if (super.getNumberOfWithdrawal() > 4) {
+            monthlyServiceCharge += (getNumberOfWithdrawal() - 4);
+        }
+        double balanceAfterServiceCharge = super.getBalance() - monthlyServiceCharge;
+        if (balanceAfterServiceCharge < 25) {
+            status = false;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Bank Account Information " +
+                "\n   status = " + status +
+                "\n   balance = " + String.format("%1.2f", getBalance()) +
+                "\n   number of Withdrawals = " + super.getNumberOfWithdrawal() +
+                "\n   number of Deposits = " + super.getNumberOfDeposit() +
+                "\n   interest rate = " + String.format("%1.2f", super.getAnnualInterestRate()) +
+                "\n   service charge = " + String.format("%1.2f", monthlyServiceCharge);
+
+    }
+
+    @Override
+    public boolean equals(Object acc) {
+        if (acc == this) {
+            return true;
+        }
+        if (acc == null) {
+            return false;
+        }
+        if (acc.getClass() != getClass()) {
+            return false;
+        }
+        return Double.compare(this.getBalance(), getBalance()) == 0;
+    }
+
+    @Override
+    public int compareTo(BankAccount acc) {
+        return Double.compare(this.getBalance(), acc.getBalance());
+    }
 }
