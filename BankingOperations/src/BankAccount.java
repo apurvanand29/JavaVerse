@@ -59,4 +59,15 @@ public abstract class BankAccount {
         this.numberOfDeposit++;
     }
 
+    /**
+     * This method will help you withdraw and update
+     * available balance and increment number of withdraw
+     * 
+     * @param withdrawalAmount
+     */
+    public void withdraw(double withdrawalAmount) {
+        this.balance = balance - withdrawalAmount;
+        this.numberOfWithdrawal++;
+    }
+
 }
