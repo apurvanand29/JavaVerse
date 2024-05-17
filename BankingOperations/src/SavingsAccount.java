@@ -1,10 +1,8 @@
-package BankingOperations.src;
-
 /*
  * This class extends BankAccount transactions and uses status
  * of account for withdrawal and deposit operations
  */
-public class SavingsAccount extends BankAccount implements Comparable<BankAccount> {
+public class SavingsAccount extends BankAccount implements Comparable<BankAccount>{
 
     static boolean status;
 
@@ -71,7 +69,7 @@ public class SavingsAccount extends BankAccount implements Comparable<BankAccoun
     }
 
     @Override
-    public int compareTo(BankAccount acc) {
+    public int compareTo(BankAccount acc){
         return Double.compare(this.getBalance(), acc.getBalance());
     }
 }

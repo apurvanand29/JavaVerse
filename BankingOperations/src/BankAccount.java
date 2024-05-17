@@ -1,5 +1,3 @@
-package BankingOperations.src;
-
 /*This abstract class has non-abstract methods to handle deposit, withdrawal, 
 *interest calculation and monthly process */
 
