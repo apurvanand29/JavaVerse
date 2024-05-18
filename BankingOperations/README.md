@@ -15,3 +15,7 @@ The `BankAccount` class is an abstract class that provides methods for handling 
 
 ### SavingsAccount Class
 The `SavingsAccount` class extends `BankAccount` and adds specific behavior for a savings account, including maintaining a status based on balance thresholds and limiting withdrawals.
+
+#### Additional Features:
+- Limits withdrawals to ensure minimum balance requirements.
+- Overrides `monthlyProcess()` to enforce transaction limits and apply service charges.
