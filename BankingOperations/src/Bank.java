@@ -1,19 +1,3 @@
-/* *********************************************************************
-*  +-+-+-+-+-+-+-+-+-+-+-+-+-+
-*   A P U R V A     A N A N D
-*  +-+-+-+-+-+-+-+-+-+-+-+-+-+
-* 
-* ITMD-510-05
-* Date: 09/19/2023
-*
-* Assignment: Week 4 Exercise 10.1
-* 
-* Description: This will help you understand the concept of overriding
-*              and abstract class through a banking application
-*
-***********************************************************************
-*/
-
 import java.util.ArrayList;
 import java.util.Random;
 
