@@ -30,3 +30,5 @@ To use this project:
 
 ## Example Output
 Upon running `Bank.main()`, you will see detailed information about each `SavingsAccount`, including its balance, transaction history, interest rate, and service charges.
+
+![alt text](image.png)
