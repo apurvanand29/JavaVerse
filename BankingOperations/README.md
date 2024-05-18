@@ -23,3 +23,10 @@ The `SavingsAccount` class extends `BankAccount` and adds specific behavior for 
 ### Bank Class
 The `Bank` class contains a `main` method demonstrating the functionality of `SavingsAccount` by creating multiple accounts with random balances and interest rates, performing transactions, and displaying account details.
 
+## Usage
+To use this project:
+1. Compile the Java files (`BankAccount.java`, `SavingsAccount.java`, and `Bank.java`).
+2. Run the `Bank` class to simulate banking operations on randomly generated `SavingsAccount` instances.
+
+## Example Output
+Upon running `Bank.main()`, you will see detailed information about each `SavingsAccount`, including its balance, transaction history, interest rate, and service charges.
