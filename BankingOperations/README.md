@@ -19,3 +19,7 @@ The `SavingsAccount` class extends `BankAccount` and adds specific behavior for 
 #### Additional Features:
 - Limits withdrawals to ensure minimum balance requirements.
 - Overrides `monthlyProcess()` to enforce transaction limits and apply service charges.
+
+### Bank Class
+The `Bank` class contains a `main` method demonstrating the functionality of `SavingsAccount` by creating multiple accounts with random balances and interest rates, performing transactions, and displaying account details.
+
